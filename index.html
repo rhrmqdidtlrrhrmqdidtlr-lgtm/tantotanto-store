@@ -46,7 +46,7 @@
     "스테이크",
     "리조또"
    ],
-   "priceRange": "₩₩",
+   "priceRange": "₩10,000~₩30,000",
    "telephone": "+82-2-2039-2915",
    "address": {
     "@type": "PostalAddress",
@@ -77,7 +77,32 @@
     },
     {
      "@type": "LocationFeatureSpecification",
-     "name": "창가 좌석",
+     "name": "웰컴키즈존",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "콜키지 프리(와인·사케)",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "창가 소파 좌석",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "단체 이용",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "무선인터넷",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "대기공간",
      "value": true
     },
     {
@@ -675,7 +700,7 @@
    "about": {
     "@id": "https://tantotanto.store/#restaurant"
    },
-   "dateModified": "2026-11-20",
+   "dateModified": "2026-11-23",
    "url": "https://tantotanto.store/"
   },
   {
@@ -726,7 +751,39 @@
      "name": "예약할 수 있나요?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "캐치테이블과 네이버에서 예약할 수 있어요. 전화 예약은 02-2039-2915로 해 주세요."
+      "text": "캐치테이블과 네이버에서 예약할 수 있어요. 온라인 예약은 최대 6명까지 가능해요. 전화 예약은 02-2039-2915로 해 주세요."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "단체로 가도 되나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "7명 이상 단체는 매장으로 전화 주시면 안내해 드려요. 전화: 02-2039-2915"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "창가 소파 자리를 예약할 수 있나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "네, 창가 소파 좌석은 4개 테이블이고 2~6명이 앉을 수 있어요. 예약할 때 요청 사항에 '창가 자리'라고 적어 주시면 마련해 드려요."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "콜키지가 되나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "와인과 사케는 콜키지 무료예요. 와인 무료. 사케 무료. 위스키 병당 30,000원."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "1인 예산은 얼마 정도인가요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "점심과 저녁 가격이 같고, 1인 1만~3만 원대예요. 파스타는 14,800원부터, 하우스 스테이크는 32,800원이에요."
      }
     },
     {
@@ -734,7 +791,7 @@
      "name": "주차할 수 있나요?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "전용 주차장은 없어요. 인근 유료 주차장을 이용해 주세요."
+      "text": "전용 주차장은 없고, 가까운 한아름 528주차장(유료)을 이용해 주세요. 기본 1시간 3,000원. 추가 20분당 1,000원. 하루 최대 50,000원."
      }
     },
     {
@@ -742,7 +799,7 @@
      "name": "아이와 함께 가도 되나요?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "네, 아기의자가 있어요. 가족 식사도 편하게 하실 수 있어요."
+      "text": "네, 아이를 환영하는 웰컴키즈존이에요. 아기의자가 있어요."
      }
     }
    ]
@@ -819,6 +876,8 @@
         <div><dt>전화 예약</dt><dd><a href="tel:+82220392915">02-2039-2915</a></dd></div>
         <div><dt>오늘 영업</dt><dd>11:00–22:00 <span class="bt">브레이크타임 <span id="hours-now2">15:00–17:00</span></span></dd></div>
         <div><dt>라스트오더</dt><dd>점심 <span id="lo-now2">14:30</span>, 저녁 20:50</dd></div>
+        <div><dt>인원</dt><dd>온라인 예약 최대 6명, 7명 이상은 전화</dd></div>
+        <div><dt>창가 소파</dt><dd>예약 요청 사항에 '창가 자리'라고 적어 주세요</dd></div>
       </dl>
     </div>
   </section>
@@ -832,9 +891,13 @@
         <details><summary>영업시간과 라스트오더는 어떻게 되나요?<i aria-hidden="true"></i></summary><div class="a"><p>매일 11:00~22:00 영업해요.</p><dl class="arows"><div><dt>브레이크타임</dt><dd>평일 15:00~17:00, 주말 15:00~16:00</dd></div><div><dt>라스트오더 평일</dt><dd>점심 14:30, 저녁 20:50</dd></div><div><dt>라스트오더 주말</dt><dd>점심 14:50, 저녁 20:50</dd></div></dl></div></details>
         <details><summary>대표 메뉴와 가격은 어떻게 되나요?<i aria-hidden="true"></i></summary><div class="a"><dl class="arows"><div><dt>채끝스테이크 크림</dt><dd>19,800원</dd></div><div><dt>샥슈카(에그인헬)</dt><dd>19,800원</dd></div><div><dt>명란 알리오올리오</dt><dd>15,800원</dd></div><div><dt>브리&amp;바질 뇨끼</dt><dd>18,800원</dd></div><div><dt>하우스 스테이크</dt><dd>32,800원</dd></div></dl></div></details>
         <details><summary>건대에서 데이트나 기념일에 가기 좋은 식당인가요?<i aria-hidden="true"></i></summary><div class="a"><p>네, 데이트와 기념일, 친구 모임에 잘 어울려요.</p><p>주황빛 조명과 노란 소파 창가 자리, 원목 테이블이 있는 밝고 따뜻한 공간이에요.</p><p>하이볼과 와인도 있어요.</p></div></details>
-        <details><summary>예약할 수 있나요?<i aria-hidden="true"></i></summary><div class="a"><p>캐치테이블과 네이버에서 예약할 수 있어요.</p><p>전화 예약은 02-2039-2915로 해 주세요.</p></div></details>
-        <details><summary>주차할 수 있나요?<i aria-hidden="true"></i></summary><div class="a"><p>전용 주차장은 없어요.</p><p>인근 유료 주차장을 이용해 주세요.</p></div></details>
-        <details><summary>아이와 함께 가도 되나요?<i aria-hidden="true"></i></summary><div class="a"><p>네, 아기의자가 있어요.</p><p>가족 식사도 편하게 하실 수 있어요.</p></div></details>
+        <details><summary>예약할 수 있나요?<i aria-hidden="true"></i></summary><div class="a"><p>캐치테이블과 네이버에서 예약할 수 있어요.</p><p>온라인 예약은 최대 6명까지 가능해요.</p><p>전화 예약은 02-2039-2915로 해 주세요.</p></div></details>
+        <details><summary>단체로 가도 되나요?<i aria-hidden="true"></i></summary><div class="a"><p>7명 이상 단체는 매장으로 전화 주시면 안내해 드려요.</p><p>전화: 02-2039-2915</p></div></details>
+        <details><summary>창가 소파 자리를 예약할 수 있나요?<i aria-hidden="true"></i></summary><div class="a"><p>네, 창가 소파 좌석은 4개 테이블이고 2~6명이 앉을 수 있어요.</p><p>예약할 때 요청 사항에 '창가 자리'라고 적어 주시면 마련해 드려요.</p></div></details>
+        <details><summary>콜키지가 되나요?<i aria-hidden="true"></i></summary><div class="a"><p>와인과 사케는 콜키지 무료예요.</p><dl class="arows"><div><dt>와인</dt><dd>무료</dd></div><div><dt>사케</dt><dd>무료</dd></div><div><dt>위스키</dt><dd>병당 30,000원</dd></div></dl></div></details>
+        <details><summary>1인 예산은 얼마 정도인가요?<i aria-hidden="true"></i></summary><div class="a"><p>점심과 저녁 가격이 같고, 1인 1만~3만 원대예요.</p><p>파스타는 14,800원부터, 하우스 스테이크는 32,800원이에요.</p></div></details>
+        <details><summary>주차할 수 있나요?<i aria-hidden="true"></i></summary><div class="a"><p>전용 주차장은 없고, 가까운 한아름 528주차장(유료)을 이용해 주세요.</p><dl class="arows"><div><dt>기본</dt><dd>1시간 3,000원</dd></div><div><dt>추가</dt><dd>20분당 1,000원</dd></div><div><dt>하루 최대</dt><dd>50,000원</dd></div></dl></div></details>
+        <details><summary>아이와 함께 가도 되나요?<i aria-hidden="true"></i></summary><div class="a"><p>네, 아이를 환영하는 웰컴키즈존이에요.</p><p>아기의자가 있어요.</p></div></details>
       </div>
     </div>
   </section>
@@ -844,7 +907,8 @@
       <h2 id="en-title">For visitors</h2>
       <div>
         <p>TantoTanto is a vivid Italian restaurant a 5-minute walk from Exit 2 of Konkuk Univ. Station (2F, 49 Achasan-ro 33-gil, Gwangjin-gu, Seoul), with an orange-lit ceiling and a long yellow banquette by the windows.</p>
-        <p>Signature dishes are Striploin Steak Cream Pasta (19,800 won), Shakshuka (19,800 won), Myeongran Aglio e Olio (15,800 won), Brie &amp; Basil Gnocchi (18,800 won) and House Steak (32,800 won). Open Monday to Friday 11:00–15:00 and 17:00–22:00, weekends 11:00–15:00 and 16:00–22:00. Last order: lunch 14:30 on weekdays and 14:50 on weekends, dinner 20:50. Phone +82-2-2039-2915.</p>
+        <p>Signature dishes are Striploin Steak Cream Pasta (19,800 won), Shakshuka (19,800 won), Myeongran Aglio e Olio (15,800 won), Brie &amp; Basil Gnocchi (18,800 won) and House Steak (32,800 won). Open daily 11:00–22:00 with a break 15:00–17:00 on weekdays and 15:00–16:00 on weekends; no regular closing day. Last order: lunch 14:30 on weekdays and 14:50 on weekends, dinner 20:50. Phone +82-2-2039-2915.</p>
+        <p>Wine and sake are corkage-free (whisky 30,000 won per bottle). Kids are welcome and high chairs are available. Online booking takes up to 6 guests; call for larger groups. There is no private parking; the paid Hanareum 528 lot is nearby.</p>
       </div>
     </div>
   </section>
