@@ -643,7 +643,7 @@ body { font-weight: 500; }
 .hintro h1 { font-weight: 800; font-size: clamp(2rem, 3.3vw, 3rem); line-height: 1.18; letter-spacing: -.04em; }
 .hintro p { margin-top: 14px; font-size: 1.05rem; color: var(--ink-2); }
 .hintro p.today { margin-top: 4px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
-.hnav { display: grid; grid-template-columns: repeat(4, 1fr); border: 2px solid var(--ink); }
+.hnav { display: grid; grid-template-columns: repeat(5, 1fr); border: 2px solid var(--ink); }
 .hnav a { display: flex; align-items: center; justify-content: center; min-height: 60px; text-decoration: none; font-weight: 800; font-size: 1.05rem; letter-spacing: -.02em; white-space: nowrap; transition: background-color 160ms ease, color 160ms ease; }
 .hnav a + a { border-left: 2px solid var(--ink); }
 .hnav .rsv { background: var(--yolk); }
@@ -742,6 +742,7 @@ a.map { aspect-ratio: auto; overflow: hidden; }
   .hnav a + a { border-left: 0; }
   .hnav a:nth-child(even) { border-left: 2px solid var(--ink); }
   .hnav a:nth-child(n+3) { border-top: 2px solid var(--ink); }
+  .hnav .rsv { grid-column: 1 / -1; border-left: 0; }
   .hnav i { display: block; font-weight: 600; font-size: .78rem; letter-spacing: .02em; opacity: .65; }
   .hsig ul { display: flex; gap: 12px; margin: 0 calc(-1 * var(--pad)); padding: 0 var(--pad); overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-left: var(--pad); scrollbar-width: none; }
   .hsig ul::-webkit-scrollbar { display: none; }
